@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Boss Fight IDLE</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>BOSS FIGHT IDLE</h1>
+
+<img src="https://res.cloudinary.com/dm9jgqh3a/image/upload/v1591816310/ab33253e15b9c9062b32551f3d96ee24_ydjpdi.jpg" id="image_src">  
+<br>
+Boss Name: <span id="boss_name_html"></span><br/>
+Boss Health: <span id="boss_health_html"></span> <br/>
+Boss Level: <span id="boss_level_html"></span> <br/>
+Power: <span id="power_html"></span><br/>
+Skill points: <span id="skill_points_html"></span><br/>
+Money: <span id="money_html"></span><br/>
+Idle damage: <span id="idle_damage_html"></span><br/>
+
+<button id="fight_boss" onclick="fight_boss()">Fight the Boss!</button>
+
+<button onclick="increase_power()">Increase your power<span id="click_power_html"></span></button><br/>
+<button onclick="increase_click_power()">Increase your power per click!(cost 2 skill points)</button>
+<button onclick="buy_idle_power_increase()">Idle power increase by training your muscles while doing nothing!(5 power/sec cost 4 skill points)</button></br>
+<button id ="idle_fight_boss_button" onclick="buy_idle_boss_fight()">Fight the boss while doing nothing! (Cost 20 skill points)</button>
+
+<button id="buy_warrior" onclick="buy_warrior()">Buy a warrior!(2 health/sec)(cost 5 money)</button>
+<button id="buy_warrior" onclick="buy_wizard()">Buy a Wizard!(30 health/sec)(cost 50 money)</button>
+<button id="buy_sword_button" onclick="upgrade_weapon()">Upgrade your weapon! (+500 power/300 money)</button>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

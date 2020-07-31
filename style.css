@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 10px;
+}
+
+img {
+max-height: 150px;
+max-width: 150px;
+object-fit: cover;
+float: right;
+}
